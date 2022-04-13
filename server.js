@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.get('/', (req,res)=>{
-  res.send('Hello world!#2');
+  res.send('Hello world!# Testing if git works without updating');
 });
 
 app.get('/api', (req,res)=>{
